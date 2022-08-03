@@ -1,33 +1,33 @@
 {
-    "name": "MusicUserbot",
-    "description": "MusicUserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.",
-    "logo": "",
+    "name": "Alone-music bot",
+    "description": "MusicUserBot To Play Songs And Videos In Telegram Voice Chat.",
+    "logo": "https://telegra.ph/file/e5646ddccc68d2942b697.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/RioProjectX/VC-Userbot",
+    "repository": "https://github.com/i-m-pro-king/Alone.s-music",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
             "required": true
         },
         "API_ID": {
-            "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps",
+            "description": "Enter APP ID Please Download from my.telegram.org/apps",
             "required": true
         },
         "HNDLR": {
-            "description": "ini akan digunakan sebagai prefix di semua perintah",
+            "description": "it will be used as prefix in all commands",
             "required": true,
             "value": "+"
         },
         "API_HASH": {
-            "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
+            "description": "Input HASH API Please Download from my.telegram.org/apps",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "Daftar User ID pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
+            "description": "List of User ID users count as admin everywhere (separate using space)",
             "required": true
         }
     },
