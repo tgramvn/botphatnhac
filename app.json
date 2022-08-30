@@ -1,13 +1,13 @@
 {
-    "name": "Alone-music bot",
-    "description": "MusicUserBot To Play Songs And Videos In Telegram Voice Chat.",
+    "name": "Bot Phat Nhac",
+    "description": "MusicUserBot dung de phat nhac Telegram.",
     "logo": "https://telegra.ph/file/e5646ddccc68d2942b697.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/i-m-pro-king/Alone.s-music",
+    "repository": "https://github.com/tgramvn/botphatnhac",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
