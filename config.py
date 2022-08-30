@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
 
-# For Local Deploy
+# Để triển khai cục bộ
 if os.path.exists(".env"):
     load_dotenv(".env")
 
-# Necessary Vars
+# Vars cần thiết
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 SESSION = os.getenv("SESSION")
