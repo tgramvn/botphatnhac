@@ -4,14 +4,14 @@ from config import call_py, bot
 
 
 async def main():
-    print("STARTING RIOUBOT CLIENT")
+    print("STARTING TGRAM CLIENT")
     await bot.start()
     print("STARTING PYTGCALLS CLIENT")
     await call_py.start()
     print(
         """
     ------------------------
-   | Alone Music Actived! |
+   | Tgram Music Actived! |
     ------------------------
 """
     )
